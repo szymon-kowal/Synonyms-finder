@@ -1,30 +1,48 @@
-# React + TypeScript + Vite
+# Synonym Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to Synonym Finder, an interactive application created as part of The Odin Project course. 
+The goal of this project is to provide a user-friendly interface for finding synonyms of words.
 
-Currently, two official plugins are available:
+## Live Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[View the live application here](https://steady-tiramisu-3b514c.netlify.app/)
 
-## Expanding the ESLint configuration
+## Inspiration
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+This application was inspired by a tutorial on [YouTube](https://www.youtube.com/watch?v=-Rtlnsgbc0k), 
+which provided the initial idea and guidance for its development.
 
-- Configure the top-level `parserOptions` property like this:
+## Technologies Used
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+- **React**: For building the user interface.
+- **TypeScript**: For adding type safety to the JavaScript code.
+- **HTML & CSS**: For structuring and styling the web pages.
+- **Vite**: For bundling and optimizing the application.
+- **TailwindCSS**: For designing a responsive and modern UI with utility-first CSS.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+## Running the Application Locally
+
+To run the application locally, follow these steps:
+
+1. **Fork and Clone the Repository**:
+   Fork the repository and then clone it to your local machine.
+
+2. **Install Dependencies**:
+   Navigate to the project directory and run:
+   ```bash
+   npm install
+   ```
+
+3. **Run the Development Server**:
+   ```bash
+   npm run dev
+   ```
+
+4. **Build the Application**:
+   ```bash
+   npm run build
+   ```
+
+## Learning Objectives
+
+- **API Integration**: Efficiently fetching data from APIs.
