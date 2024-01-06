@@ -30,10 +30,7 @@ const App: React.FC = () => {
 			<div className="header text-2xl font-bold text-center my-4">
 				Synonyms
 			</div>
-			<form
-				onSubmit={fetchData}
-				className="flex-1 flex flex-col items-center"
-			>
+			<form onSubmit={fetchData} className="flex flex-col items-center">
 				<label className="mb-2">Find the synonym of word:</label>
 				<input
 					type="text"
@@ -50,7 +47,7 @@ const App: React.FC = () => {
 					Submit
 				</button>
 			</form>
-			<ul className="items list-none list-disc hover: list-disc grid grid-cols-3 gap4">
+			<ul className="items flex-1 list-none list-disc hover: list-disc grid grid-cols-3 gap4">
 				{data.map((item, idx) => (
 					<li
 						key={item + idx}
